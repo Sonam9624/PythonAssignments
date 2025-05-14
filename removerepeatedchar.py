@@ -1,7 +1,11 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon May 12 16:58:24 2025
+# Program to remove repeated characters from string
 
-@author: SP
-"""
+string="geeks for geeks"
+c=""
+
+for char in string:
+     if char not in c:
+        c = c + char
+        
+print(c)
 
